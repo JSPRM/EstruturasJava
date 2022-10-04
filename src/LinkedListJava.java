@@ -14,7 +14,7 @@ public class LinkedListJava {
     public void print(){
         NodeLink n = head;
         while (n != null){
-            System.out.println(n.value + " ");
+            System.out.print(n.value + " ");
             n = n.next;
         }
     }
